@@ -1,0 +1,174 @@
+﻿/*desktop css navbar start here*/
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.container{
+    max-width:1200px;
+    margin:0 auto;
+}
+.nav-menu{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+}
+.nav-logo{
+    text-align:left;
+}
+.nav-heading h1{
+    text-align:right;
+    position:absolute;
+   top:70px;
+   left:300px;
+   
+}
+
+.navbar{
+    position:relative;
+}
+.nav-menu a{
+    padding:5px 10px;
+    background-color:transparent;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*desktop css navbar ends here*/
+
+.profile{
+    position:relative;
+}
+.top-weather-icon {
+    border-radius: 50%;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    width:50px;
+    transition:width 2s, transform 2s;
+}
+
+    .top-weather-icon:hover {
+        
+        width:100px;
+    }
+.bottom-cloud-icon {
+    border-radius: 50%;
+    position: absolute;
+    left:1000px;
+    top:300px;
+    width: 200px;
+    transition: width 2s, transform 2s;
+}
+
+    .bottom-cloud-icon:hover {
+        width: 100px;
+    }
+.profile-desc p {
+    color: grey;
+    margin: 10px auto;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 30px;
+    font-family: 'Playfair Display';
+}
+
+/* about me starts here*/
+.mypic img{
+    height:100px;
+    margin-top:20px;
+    width:100px;
+    transition: width 2s ,transform 2s;
+}
+.about-desc p{
+    text-align:left;
+   
+}
+.mypic img:hover {
+    width: 150px;
+    transform: rotate(360deg);
+}
+
+/* about me ends here*/
+
+/*experience*/
+.myeducation{
+    width:1% 5%;
+}
+/*contact*/
+.contact button {
+    border: none;
+    padding: 4%;
+    border-radius: 12px;
+    background-color: #052d2f;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    width: 100px;
+}
+
+.contact-links{
+    position:relative;
+}
+
+.media-buttons {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    margin-top:200px;
+}
+/*footer starts*/
+.footer-menu{
+    margin-top:15px;
+}
+.footer-menu a{
+    display:inline;
+    padding:10px;
+}
