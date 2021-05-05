@@ -194,6 +194,7 @@ h2 {
     border-radius:5px;
     padding:25px;
     transition:0.3s;
+    height:600px;
     
 }
     .myexperience .card:hover{
