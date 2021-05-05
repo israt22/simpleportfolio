@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>ISRAT JANNAT SWEETY</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--google font-->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+   
+   <link href="https://fonts.googleapis.com/css2?family=Satisfy&family=Train+One&display=swap" rel="stylesheet">
+    <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <!--css for mobile-->
+    <link rel="stylesheet" href="style.css" />
+    <!--css for desktop-->
+    <link rel="stylesheet" href="desktop.css" media="screen and (min-width:992px)" />
+</head>
+<body>
+    <div class="container">
+        <!--navbar starts from here-->
+        <div class="navbar">
+            <div class="nav-logo col-2">
+                <img src="img/sweety.png" alt="logo" />
+
+            </div>
+            <div class="nav-heading col-4">
+                <h1>ISRAT JANNAT SWEETY</h1>
+
+            </div>
+            <div class="nav-menu col-6">
+                <a href="#">HOME</a>
+                <a href="#about-me-id">ABOUT ME</a>
+                <a href="#skill-id">SKILL</a>
+                <a href="#contact-id">CONTACT</a>
+
+            </div>
+        </div>
+        <!--navbar  ends here-->
+        <!--profile starts here-->
+        <div class="profile">
+            <img class="top-weather-icon" src="img/weather.png" height="50px" width="50px" />
+            <div class="profile-desc">
+                <h1>I am a computer science and engineering student<br />&<br /> web designer</h1>
+                <p>Hi ,My name is ISRAT JANNAT SWEETY.Welcome to my personal page that I've designed to showcase my skills and experience that I've accumulated over the year.</p>
+            </div>
+            <img class="bottom-cloud-icon" src="img/cloud.png" height="100px" width="100px" />
+
+        </div>
+
+        <!-- profile ends here-->
+        <!--profile starts here-->
+        <div class="about-me" id="about-me-id">
+            <h2>About me</h2>
+            <hr class="dotted-hr" />
+            <div class="mypic col-6">
+                <img src="img/images.jpg" />
+
+            </div>
+            <div class=" about-desc col-5">
+                <p>I like to call myself "a Computer Engineer & Web designer"</p>
+                <hr class="about-me-hr" />
+                <p>Name:ISRAT JANNAT SWEETY</p>
+                <hr class="about-me-hr" />
+                <p>Address:Agrabad,Cda,chittagong.</p>
+                <hr class="about-me-hr" />
+                <p>Email:<a href="mailto:isratjannat848@gmail.com">isratjannat848@gmail.com</a></p>
+                <hr class="about-me-hr" />
+                <p>phone:<a href="tel:01875800000">01870000000</a></p>
+
+
+            </div>
+        </div>
+        <!--profile ends here-->
+        <!--experience starts here-->
+        <div class="myexperience">
+            <div class="myeducation col-6">
+                <div class="card">
+                    <div class="card-icon">
+                        <img class="round-img" src="img/education.png" height="50px" width="50px" alt="education-icon" />
+                    </div>
+                    <div class="card-title">
+                        <h2> Education & Training</h2>
+                    </div>
+                    <div class="card-desc">
+                        <ol>
+                            <li>
+                                <strong>SSC:</strong>
+                                <p>BANGLADESH NOU BAHINI SCHOOL AND COLLEGE</p>
+                                <p>Group:Science</p>
+                                <p>Session:2013-2014</p>
+                            </li>
+
+
+
+                            <hr />
+
+                            <li>
+                                <strong>HSC:</strong>
+                                <P>BANGLADESH NOU BAHINI SCHOOL AND COLLEGE</P>
+                                <p>Group:Science</p>
+                                <p>Session:2015-2016</p>
+
+                            </li>
+
+
+
+
+                            <hr />
+
+
+                            <li>
+                                <strong>BSC:</strong>
+                                <p>CHITTAGONG INDEPENDENT UNIVERSITY</p>
+                                <p>Department:CSE</p>
+                                <p>persuing</p>
+                                <hr />
+
+                            </li>
+                            <hr />
+
+                            <li>
+                                <strong>Trainning:</strong>
+                                <p>Bitm</p>
+                                <p>WEB DESIGNING</p>
+                                <P>2019</P>
+                            </li>
+                        </ol>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+            <div class="myskill col-6" id="skill-id">
+                <div class="card">
+                    <div class="card-icon">
+                        <img class="round-img" src="img/skill.jpg" height="50px" width="50px" alt="education-icon" />
+                    </div>
+                    <div class="card-title">
+                        <h2> Skills</h2>
+                    </div>
+                    <div class="card-desc">
+                        <div class="skill-container">
+                            <ul>
+                                <li class="html">HTML</li>
+                                <li class="css">CSS</li>
+                                <li class="bootstraph">BOOTSTRAPH</li>
+                                <li class="javascript">JAVASCRIPT</li>
+                                <li class="jquery">JQUERY</li>
+                                <li class="react ">REACT JS</li>
+                                <li class="node">NODE JS</li>
+                               
+
+</div>
+
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!--experience ends here-->
+    <!--achievement contact start from here-->
+    <div class="achievement-contacts" id="contact-id">
+
+        <div class="contact col-6">
+            <h2>Contact Me</h2>
+            <hr class="dotted-hr" />
+            <form action="mailto:isratjannat848@gmail.com" method="post" enctype="text/plain">
+                <p><input type="text" placeholder="your name" name="Name" /></p>
+                <p><input type="email" placeholder="your email" name="Email" /></p>
+
+                <p><textarea name="message" cols="30" rows="10" placeholder="your message here"></textarea></p>
+                <button type="submit">Send It</button>
+                <button type="reset">Reset It</button>
+            </form>
+
+        </div>
+        
+                <div class="contact-links col-6">
+                    <h2>More Ways To Contact</h2>
+                    <hr class="dotted-hr" />
+
+                    <div class="media-buttons">
+                        <button class="btn"><i class="fab fa-2x fa-youtube" onclick="window.open('https://www.youtube.com/channel/UCDVl5RNrALBtTtSv2ZESBwA')"class="request-callback" style="color:#c4302b"></i></button>
+                        <button class="btn"><i class="fab fa-2x fa-facebook-messenger" onclick="window.open('https://www.facebook.com/israt.jannat.52643821/')" style="color:blue"></i></button>
+                       <br /> <button class="btn"><i class="fab fa-2x fa-facebook-f" onclick="window.open('https://www.facebook.com/israt.jannat.52643821')" style="color:blue"></i></button>
+                        <button class="btn"><i class="fab fa-2x fa-linkedin-in" style="color:blue"></i></button>  <br />             
+<button class="btn"><i class="fab fa-2x fa-skype" style="color:dodgerblue"></i></button>
+                        <button class="btn"><i class="fab fa-2x fa-github"onclick="window.open('https://github.com/israt22')"></i></button>
+
+
+
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+   
+
+
+    <!--achievement contact ends from here-->
+    <!--footer start from here-->
+    <div class="footer">
+        <div class="footer-menu col-6">
+            <a href="#">HOME</a>
+            <a href="#about-me-id">ABOUT ME</a>
+            <a href="#skill-id">SKILL</a>
+            <a href="#contact-id">CONTACT</a>
+
+
+        </div>
+        <div class="footer-desc col-6">
+            &copy;sweety 2021.Developed with <span style="color:red; font-size:1.5rem">&#10084;</span> by israt jannat sweety.
+
+        </div>
+
+    </div>
+
+</body>
+</html>
